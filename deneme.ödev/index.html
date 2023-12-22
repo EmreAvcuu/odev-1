@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Sunrise</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            padding: 25px 25px;
+            height: 120px;
+            width: 100%;
+            background-color: #464646;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        nav>*{
+            display: inline-block;
+        }
+        nav>img.logo{
+            height: 45px;
+            padding: 0 40px;
+            background-color: #464646;
+        }
+        .nav-menu>ul>li{
+            text-align: center ;
+            list-style: none;
+            display: inline-block;
+            justify-content: center;
+            
+        }
+        .nav-menu>ul>li>a{
+            text-decoration: none;
+            color: #9f9d97;
+            padding: 0 40px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif   ;
+            
+        }
+        .foto{
+            width: 100%;
+        }
+        .text1{
+            padding-top: 30px;
+            text-align: center;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .text2{
+            padding-top: 30px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        .mainCard{
+            padding: 30px;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .mainCard>.card{
+            border: none;
+            border-radius: 20px;
+            text-align: center;
+            width: 33%;
+        }
+        .card>img{
+            width: 150px ;
+            height: 152px;
+        }
+        .card>p{
+            padding-top: 20px;
+            font-size: 24px;
+        }
+        .card>button{
+            padding: 0px 20px;
+            height: 30px;
+            border: none;
+            color: white;
+            overflow: hidden;
+            background-color: #4b5887;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+        footer {
+      background-color: #464646;
+      color: white;
+      padding: 20px;
+    }
+
+    .contact-us {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .social-networks {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .social-link {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+    }
+    .contact>p{
+        color: #a5a29b;
+        font-size: 18px;
+    }
+    .site-links>div>a{
+        color: #a5a29b;
+        font-size: 18px;
+    }
+    .ikon>a>i{
+        font-size: 30px;
+    }
+    .baslik{
+        display:flex ;
+        justify-content: space-between;
+    }
+    .links>a{
+        color: #a5a29b;
+        font-size: 18px;
+    }
+    .links2>a{
+        color: #a5a29b;
+        font-size: 18px;
+    }
+    .footer2{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid white;
+    }
+    .social-h3{
+        padding-right: 40px;
+    }
+    .kapsayici{
+        width: 84%;
+        margin-left: 8%;
+    }
+    .links{
+        margin-left: 170px;
+    }
+    .links2{
+        margin-right: 170px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="assets/images/logo.png" >
+        <div class="nav-menu">
+            <ul >
+                <li> <a href="#">Hotels</a> </li>
+                <li> <a href="#">Restaurants</a> </li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Vacation</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <div>
+        <img class="foto" src="assets/images/foto.png" alt="">
+    </div>
+    <div>
+        <p class="text1">We are glad you were registered!</p>
+    </div> 
+    <div>
+        <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio.</p>
+    </div>
+    <div class="mainCard">
+        <div class="card">
+            <img src="assets/images/card1.png" alt="">
+            <p>Select tours</p> <br>
+            <button class="card-btn">Learn more</button>
+        </div>
+        <div class="card">
+            <img src="assets/images/card2.png" alt="">
+            <p>Receive discounts</p> <br>
+            <button class="card-btn">Learn more</button>
+        </div>
+        <div class="card">
+            <img src="assets/images/card3.png" alt="">
+            <p>Travel with comfort</p><br>
+            <button class="card-btn">Learn more</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="kapsayici">
+            <div class="baslik">
+                <h3 style="color: #fec903; font-size: 22px;">Contact Us</h3>
+                <h3 style="color: #fec903; font-size: 22px;">site-links</h3>
+                <h3 class="social-h3" style="color: #fec903; font-size: 22px;">Social Networks</h3>
+            </div>
+        <div class="contact-us">
+            <div class="contact">
+          
+                <p>emreavcu888@gmail.com</p><br>
+                <p>+123 456 7890</p>
+              </div>
+      
+              <div class="site-links">
+                  <div style="margin-right:75px;">
+                    <a href="#">Hotels</a><br>
+                    <a href="#">Restaurants</a><br>
+                    <a href="#">News</a><br>
+                    <a href="#">Vacation</a><br>
+                  </div>
+
+                </div>
+            
+          
+                
+                  <div class="ikon">
+                      <a href="https://www.facebook.com" class="social-link" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://www.twitter.com" class="social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="https://www.instagram.com" class="social-link" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                      <a href="https://www.instagram.com" class="social-link" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                      
+                  </div>
+        </div>
+    </div>
+
+      </footer>
+      <footer class="footer2">
+        <div class="links">
+            <a href="">Privacy Policy|</a>
+            <a href="">Terms of Use|</a>
+            <a href="">Contact Us</a>
+
+        </div>
+        <div class="links2">
+            <a href="">Unsubscribe</a>
+        </div>
+
+      </footer>
+    
+</body>
+</html>
